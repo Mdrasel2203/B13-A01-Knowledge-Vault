@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+.inter{
+
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
 
 
 .nav{
@@ -31,26 +38,29 @@ padding: 16px 120px;
   color: white;
   padding: 12.5 16;
   font-size: 16px;
+  cursor: pointer;
 }
 .background-img{
   width: 100%;
-  /* max-width: 1600px; */
+ 
   min-height: 100vh;
   background: url(../assets/hero-bg.png);
   background-size: cover;
   background-position: center;
   justify-content: center;
-  
+  text-align: center;
   display: flex;
-  flex-direction: column;
+ 
   justify-content: center;
   align-items: center;
+  
 
  }
 ..background-img .content{
   width: 1360px;
-  padding: 115px 120px 180px;
-  margin: 0 auto;
+  margin: 115px 120px 180px;
+
+
   
 }
 ..background-img .content .text {
@@ -58,9 +68,12 @@ padding: 16px 120px;
   justify-content: center;
   align-items: center;
 }
+
 .text button{
   text-align: center;
 }
+     /* notes/card section */
+
 
 #notes{
   padding-top: 50px;
@@ -78,6 +91,14 @@ padding: 16px 120px;
   text-align: center;
 
 }
+.notes-heading h1{
+  font-size: 48px;
+
+}
+.notes-heading p{
+  font-size: 16px;
+  color: #627382;
+}
 #notes .notes-content .note-box{
   display: flex;
   gap: 24px;
@@ -85,11 +106,23 @@ padding: 16px 120px;
 }
 .note-box .note-card{
   padding: 69.5px 24px;
-  border: 1px solid red;
+  border: 1px solid none;
+  border-radius: 8px;
   max-width: 322px;
 text-align: center;
+box-shadow: 0 6px 50px 0 #0000001b;;
   
   
+}
+.note-box .note-card h4{
+  font-size: 24px;
+  margin-bottom: 16px;
+
+
+}
+.note-box .note-card p{
+  font-size: 16px;
+  color: #627382;
 }
 .note-card img{
 background-color: red;
@@ -100,6 +133,7 @@ justify-content: center; */
 
 
 }
+
 #dashboard{
   padding: 120px;
 }
@@ -109,9 +143,7 @@ justify-content: center; */
 #dashboard .dash-content .dash-img{
   max-width: 600px;
 }
-#dashboard .dash-text-content .dash-text{
 
-}
 #dashboard .dash-text-content{
   padding: 102px 0px 102px 60px;
 }
@@ -122,18 +154,27 @@ justify-content: center; */
 }
 .dash-text h4{
   margin-bottom: 16px;
+  font-size: 16px;
   color: #30B868;
 }
 .dash-text h1{
   max-width: 700px;
+  color: #001931;
   font-size: 48px;
   margin-bottom: 16px;
 }
 .dash-text p{
    margin-bottom: 40px;
+   font-size: 16px;
+   color: #627382;
+   line-height: 20px;
 }
 #dashboard .selection  .select{
    margin-bottom: 16px;
+   font-size: 16px;
+   display: flex;
+   align-items: center;
+   gap: 6px;
 }
 #chellenge{
   display: flex;
@@ -147,6 +188,7 @@ margin: 0 120px 120px 120px;
 max-width: 1360px;
 /* padding: 80px 40px; */
 background-color: #F7F6F2;
+padding: 0 380px;
 
 }
 .chellenge-content .content-text{
@@ -154,15 +196,32 @@ background-color: #F7F6F2;
   max-width: 1280px;
   
   
+  
 }
 .chellenge-content .content-text h1{
   margin-bottom: 16px;
+  font-size: 40px;
+  
 }
 .chellenge-content .content-text p{
   margin-bottom: 24px;
+  line-height: 24px;
+  font-size: 16px;
+  color: #627382;
 }
 .chellenge-content .content-text button{
 margin-bottom: 16px;
+font-size: 16px;
+background-color: #30B868;
+color: white;
+border:none;
+border-radius: 6px;
+padding: 16px;
+}
+.content-text  img{
+  
+  align-items: center;
+
 }
 
 
@@ -216,7 +275,8 @@ margin-bottom: 16px;
 /* Right side */
 .footer-right h4 {
   margin: 0 0 8px 0;
-  font-size: 14px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .social-icons {
@@ -238,7 +298,7 @@ margin-bottom: 16px;
   text-align: center;
   
   margin: 30px 0;
-  font-size: 13px;
+  font-size: 16px;
   opacity: 0.8;
 }
 
