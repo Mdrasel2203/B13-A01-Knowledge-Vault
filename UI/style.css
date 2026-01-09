@@ -5,3 +5,62 @@
 }
 
 
+
+.nav{
+display: flex;
+justify-content: space-between;
+padding: 16px 120px;
+}
+.nav img{
+  max-width:139px ;
+
+
+}
+.nav  .nav-menu {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  align-items: center;
+}
+.btn{
+  max-width: 164px;
+  height: 44px;
+  background-color: #30B868;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 12.5 16;
+  font-size: 16px;
+}
+.background-img{
+  width: 100%;
+  /* max-width: 1600px; */
+  min-height: 100vh;
+  background: url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+
+
+ 
+ 
+
+}
+..background-img .content{
+  width: 1360px;
+  padding: 115px 120px 180px;
+  
+}
+..background-img .content .text {
+  display: flex;
+  justify-content: center;
+}
+
+
